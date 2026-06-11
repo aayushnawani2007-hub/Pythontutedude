@@ -1,0 +1,8 @@
+import math
+n=int(input("enter the number:"))
+a=math.sqrt(n)
+print(a)
+b=math.log(n)
+print(b)
+C=math.sin(n)
+print(C)

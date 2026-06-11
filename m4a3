@@ -1,0 +1,8 @@
+def factorial(num):
+      prod=1
+      for i in range (1,num+1):
+            prod*=i
+      return prod
+call=int(input("ENter the number:"))
+factorial(call)
+print(factorial(call))
